@@ -4,7 +4,7 @@ function Chutar() {
   if (inputNumber == valorAleatório) {
     document.getElementById('resultado').innerHTML = 'Parabéns, você acertou! Era o número ' + valorAleatório
   } else if (inputNumber < 0 || inputNumber > 10) {
-    document.getElementById('resultado').innerHTML = 'Ops, insira um valor de 0 a 10!'
+    document.getElementById('resultado').innerHTML = 'Ops, insira um valor de 0 a 10.'
   } else if (inputNumber > valorAleatório){
     document.getElementById('resultado').innerHTML = 'Ops, você errou :( o número é menor!'
   } else {
@@ -21,4 +21,4 @@ function Chutar() {
 
 var valorAleatório = parseInt(Math.random() * 11)
 
-var tentativas = 3  
+var tentativas = 3; 
